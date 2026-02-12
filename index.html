@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Redirecting...</title>
+
+  <script>
+    (function () {
+      // Get full path + query string
+      const path = window.location.pathname;
+      const query = window.location.search;
+
+      // Redirect to x6rr.com with same path
+      window.location.replace("https://x6rr.com" + path + query);
+    })();
+  </script>
+</head>
+
+<body>
+  <p>Redirecting to <strong>x6rr.com</strong>...</p>
+</body>
+</html>
